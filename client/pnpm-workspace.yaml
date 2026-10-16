@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+  vue-demi: true
+storeDir: D:\dsh-2\.pnpm-store
+# 沙箱环境无法执行依赖的构建脚本（spawn EPERM），
+# 用扁平化的 node_modules 结构，避免依赖解析失败。
+nodeLinker: hoisted

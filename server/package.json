@@ -1,0 +1,16 @@
+{
+  "name": "library-system-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "图书管理系统后端：Node 内置 http + node:sqlite，零第三方依赖",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/",
+    "test:watch": "node --test --watch test/"
+  }
+}
